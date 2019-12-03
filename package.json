@@ -1,7 +1,7 @@
 {
-  "name": "blog-demo",
+  "name": "credit-doc",
   "version": "1.0.0",
-  "description": "vuepress blog demo",
+  "description": "credit doc",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,12 +12,12 @@
     "type": "git",
     "url": "git+https://github.com/goodbigtree/credit.github.io.git"
   },
-  "author": "handsome_hou",
+  "author": "frank",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/olewaHHH/blog-demo/issues"
+    "url": "https://github.com/goodbigtree/credit.github.io.git/issues"
   },
-  "homepage": "https://github.com/olewaHHH/blog-demo#readme",
+  "homepage": "https://github.com/goodbigtree/credit.github.io.git#readme",
   "devDependencies": {
     "vuepress": "^0.14.8"
   }
