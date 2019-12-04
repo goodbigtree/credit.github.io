@@ -13,7 +13,10 @@ git init
 git add -A
 git commit -m 'deploy'
 
+# 如果发布到 https://<USERNAME>.github.io  USERNAME=你的用户名 
+# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/goodbigtree/credit.github.io.git master:credit.github.io
+git push -f https://github.com/goodbigtree/credit.github.io.git master:gh-pages
 
 cd -

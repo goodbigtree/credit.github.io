@@ -1,9 +1,9 @@
 module.exports = {
-  base: '/credit/',
-  title: 'credit',
+  base: '/credit.github.io/',
+  title: '云信用基础架构文档',
   description: 'Vuepress credit doc',
   head: [
-    ['link', { rel: 'icon', href: '/vue-logo.png' }]
+    ['link', { rel: 'icon', href: '/creditcloud.jpg' }]
   ],
   themeConfig: {
   	// 你的GitHub仓库
@@ -16,7 +16,9 @@ module.exports = {
   	],
   	sidebar: [
       ['/', '首页'],
-      ['/credit/Credit.md', '架构说明']
+      ['/credit/Credit.md', '服务说明'],
+      ['/credit/QucikStart.md', '快速开始'],
+      ['/credit/TechDetail.md', '技术说明']
     ]
   }
 }
