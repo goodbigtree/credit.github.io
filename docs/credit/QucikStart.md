@@ -24,9 +24,8 @@
 
 ```
 1. 初始化bladex.sql数据库到bladex库;bladex_flow.sql 到bladex_flow库;quartz_job.sql到quartz_job库
-2. 将公共yml文件:finance-public.yml、finance-public-dev.yml导入到nacos中--GROUP(FINANCE-PUBLIC-GROUP)
-3. 授权服务使用FINANCE-PUBLIC-GROUP；finance-gateway使用FINANCE-GATEWAY-GROUP；
-
+2. 将授权服务yml文件:finance-auth.yml、finance-auth-dev.yml导入到nacos中--GROUP(FINANCE-GROUP)
+3. 其它相应yml文件导入到nacos中
 ```
 
 6. finance-auth授权服务: 
