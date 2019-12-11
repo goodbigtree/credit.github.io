@@ -14,7 +14,8 @@
 > * 数据库新建seata_dev数据库，将db_store.sql导入数据库
 > * 修改配置文件registry.conf，指定使用nacos
 > * 修改nacos-config.txt，指定服务组
-> *启动服务 sh nacos-config.sh 指定nacosIP 或 (python nacos-config.py 指定ip)
+> * 初始化数据到nacos: sh nacos-config.sh 指定nacosIP 或 (python nacos-config.py 指定ip)
+> * 启动服务 sh bin/seata-server.sh -p 8091 -h ip
 
 4. 下载rabbitmq:启动服务,管理端端口15672，客户端端口5672
 
