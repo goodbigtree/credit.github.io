@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/credit.github.io/',
+  base: '/',
   title: '云信用基础架构文档',
   description: 'Vuepress credit doc',
   head: [
@@ -15,9 +15,9 @@ module.exports = {
   		{ text: '云信用', link: '/credit/Credit.md' }
   	],
   	sidebar: [
-      ['/', '首页'],
-      ['/credit/Credit.md', '服务说明'],
+      ['/credit/Credit.md', '基础环境'],
       ['/credit/QucikStart.md', '快速开始'],
+      ['/credit/OnlineInfo.md', '服务说明'],
       ['/credit/TechDetail.md', '技术说明']
     ]
   }

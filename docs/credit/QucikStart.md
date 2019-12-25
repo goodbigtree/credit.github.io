@@ -5,6 +5,7 @@
 > * 配置 application.properties 文件
 > * [访问地址](http://localhost:8848/nacos/#/login)
 > * 用户名密码为nacos
+> * 单机启动: sh startup.sh -m standalone
 
 2. 部署sentinel-dashboard:启动项目java -Dserver.port=8858 -jar D:\finance-server\sentinel-dashboard-1.7.0.jar 
 > * [访问地址](http://localhost:8858/#/login)
@@ -14,8 +15,8 @@
 > * 数据库新建seata_dev数据库，将db_store.sql导入数据库
 > * 修改配置文件registry.conf，指定使用nacos
 > * 修改nacos-config.txt，指定服务组
-> * 初始化数据到nacos: sh nacos-config.sh 指定nacosIP 或 (python nacos-config.py 指定ip)
-> * 启动服务 sh bin/seata-server.sh -p 8091 -h ip
+> * 初始化数据到nacos: sh nacos-config.sh 指定nacosIP 或 (python nacos-config.py 指定ip----sh nacos-config.sh 172.16.10.186)
+> * 启动服务 sh bin/seata-server.sh -p 8091 -h ip (sh seata-server.sh -p 8091  -h 172.16.10.186 -m file)
 
 4. 下载rabbitmq:启动服务,管理端端口15672，客户端端口5672
 

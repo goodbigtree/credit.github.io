@@ -4,7 +4,7 @@
 * java jdk 1.8及以上
 
 ## 云信用架构图示
-[架构图](/credit.github.io/creditcloud.jpg)
+[架构图](/creditcloud.jpg)
 
 ## 服务列表
 
