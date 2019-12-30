@@ -18,7 +18,8 @@ module.exports = {
       ['/credit/Credit.md', '基础环境'],
       ['/credit/QucikStart.md', '快速开始'],
       ['/credit/OnlineInfo.md', '服务说明'],
-      ['/credit/TechDetail.md', '技术说明']
+      ['/credit/TechDetail.md', '技术说明'],
+      ['/credit/TaskList.md', '版本优化']
     ]
   }
 }
